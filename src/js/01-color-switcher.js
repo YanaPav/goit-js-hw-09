@@ -20,7 +20,7 @@ function onStopBtnClick() {
 }
 
 function changeColor() {
-    document.body.style.backgroundColor =getRandomHexColor()
+    document.body.style.backgroundColor = getRandomHexColor()
 }
 
 function getRandomHexColor() {
