@@ -26,7 +26,7 @@ function onFormSubmit(e) {
   const stepValue = Number(e.currentTarget.elements.step.value)
   const amount = Number(e.currentTarget.elements.amount.value)
 
-  for (i = 0; i < amount; i += 1) {
+  for (let i = 0; i < amount; i += 1) {
     const step = firstDelay + stepValue * i
     const position = i + 1
     
